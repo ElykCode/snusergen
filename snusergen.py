@@ -5,20 +5,6 @@
 
 import argparse
 
-# Snail so classy!
-class SnUser():
-    """A Snail User class"""
-    def __init__(self, name, number):
-        self.person_name = name
-        self.provided_number = number
-
-#interactive mode function
-def interactive_mode():
-    print("Welcome to snusergen's interactive mode.")
-    name = input("Enter your name: ")
-    number = input("Enter a number for your username:")
-    return "sn" + name + number
-
 # set up the argument parser so we can just use this from the command line...
 parser = argparse.ArgumentParser()
 #parser.add_argument("-i", "--interactive", help="run in interactive mode", action="store_true")
